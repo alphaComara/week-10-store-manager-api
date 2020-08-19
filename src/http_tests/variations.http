@@ -4,5 +4,18 @@
 GET http://localhost:3001/variations
 
 ### Test creating a variation
+POST http://localhost:3001/variations
+Content-Type: application/json
 
+{
+"variation" : "purple",
+"addedBy" : "Alpha"
+
+}
 ### Test the PUT which should change a variation
+PUT http://localhost:3001/variations
+Content-Type: application/json
+
+{
+     "variation" : "modified with PUT"
+}

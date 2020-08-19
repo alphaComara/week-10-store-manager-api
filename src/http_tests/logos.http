@@ -1,15 +1,18 @@
 ### Test the home page endpoint
 
 GET http://localhost:3001/logos
-
+Content-Type: application/json
 ### Test creating a logo after you build the code for adding a logo
 POST http://localhost:3001/logos
 Content-Type: application/json
 
 {
-  "name": "Tiger Woods"
-}
+  "name": "leather",
+  "color" :" Orange",
+  "added by": "Alpha Comora"
 
+}
+ 
 ### Test the PUT which should change a logo
 PUT http://localhost:3001/logos/
 Content-Type: application/json
@@ -17,3 +20,5 @@ Content-Type: application/json
 {
   "name": "Super Logo"
 }
+###
+DELETE http://localhost:3001/logos/

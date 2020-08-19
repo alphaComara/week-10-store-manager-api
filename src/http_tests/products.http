@@ -8,8 +8,13 @@ Content-Type: application/json
 
 {
   "title": "Golf Pajamas",
-  "description": "The great golf pants"
+  "description": "The great golf pants",
+  "title" : "Binocular",
+  "description" : "Get a clear idea of where you are aheading"
+
 }
+
+
 
 ### Test the PUT which should change a product
 ### id of 5f2b54de320478eb4b1603eb is temporary while server is running
